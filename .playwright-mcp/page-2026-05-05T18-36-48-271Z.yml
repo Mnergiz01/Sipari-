@@ -1,0 +1,8 @@
+- generic [ref=e4]:
+  - paragraph [ref=e5]: Menu İstek
+  - heading "Türkoğlu Mado" [level=1] [ref=e6]
+  - paragraph [ref=e7]: Günlük sipariş giriş ve paylaşım uygulamasına hoş geldin.
+  - button " Google ile Giriş Yap" [ref=e8] [cursor=pointer]:
+    - generic [ref=e9]: 
+    - generic [ref=e10]: Google ile Giriş Yap
+  - paragraph [ref=e11]: Firebase yapılandırılmamış. .env.local dosyasını doldur.

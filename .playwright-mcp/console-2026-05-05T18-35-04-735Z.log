@@ -1,0 +1,45 @@
+[     171ms] [WARNING] [firebase] Eksik env değişkenleri: [apiKey, authDomain, projectId, storageBucket, messagingSenderId, appId] @ http://localhost:5173/src/services/firebase.js:15
+[     182ms] FirebaseError: Firebase: Error (auth/invalid-api-key).
+    at createErrorInternal (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:701:38)
+    at _assert (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:705:11)
+    at Component.instanceFactory (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:7575:7)
+    at Provider.getOrInitializeService (http://localhost:5173/node_modules/.vite/deps/chunk-LI5F3G23.js?v=1ae46ca3:948:33)
+    at Provider.initialize (http://localhost:5173/node_modules/.vite/deps/chunk-LI5F3G23.js?v=1ae46ca3:895:27)
+    at initializeAuth (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:3012:25)
+    at getAuth (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:7645:16)
+    at http://localhost:5173/src/services/firebase.js:20:21
+[   65314ms] [WARNING] [firebase] Yapılandırılmamış. .env.local dosyasını doldur ve sayfayı yenile. @ http://localhost:5173/src/services/firebase.js?t=1778006169683:30
+[   65372ms] [WARNING] [Vue Router warn]: uncaught error during route navigation: @ http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:51
+[   65372ms] [ERROR] TypeError: Cannot read properties of null (reading 'onAuthStateChanged')
+    at onAuthStateChanged (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:4794:34)
+    at http://localhost:5173/src/stores/auth.js?t=1778006169683:21:7
+    at new Promise (<anonymous>)
+    at Proxy.init (http://localhost:5173/src/stores/auth.js?t=1778006169683:20:12)
+    at Proxy.wrappedAction (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:1107:18)
+    at store.<computed> (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:785:44)
+    at http://localhost:5173/src/router/index.js?t=1778006169683:20:31
+    at http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:440:52
+    at runWithContext (http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:422:83)
+    at http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:440:25 @ http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:2107
+[   65376ms] [WARNING] [Vue Router warn]: Unexpected error when starting the router: TypeError: Cannot read properties of null (reading 'onAuthStateChanged')
+    at onAuthStateChanged (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:4794:34)
+    at http://localhost:5173/src/stores/auth.js?t=1778006169683:21:7
+    at new Promise (<anonymous>)
+    at Proxy.init (http://localhost:5173/src/stores/auth.js?t=1778006169683:20:12)
+    at Proxy.wrappedAction (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:1107:18)
+    at store.<computed> (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:785:44)
+    at http://localhost:5173/src/router/index.js?t=1778006169683:20:31
+    at http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:440:52
+    at runWithContext (http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:422:83)
+    at http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:440:25 @ http://localhost:5173/node_modules/.vite/deps/vue-router.js?v=680bda62:51
+[   65394ms] TypeError: Cannot read properties of null (reading 'onAuthStateChanged')
+    at onAuthStateChanged (http://localhost:5173/node_modules/.vite/deps/firebase_auth.js?v=2c31fa13:4794:34)
+    at http://localhost:5173/src/stores/auth.js?t=1778006169683:21:7
+    at new Promise (<anonymous>)
+    at Proxy.init (http://localhost:5173/src/stores/auth.js?t=1778006169683:20:12)
+    at Proxy.wrappedAction (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:1107:18)
+    at store.<computed> (http://localhost:5173/node_modules/.vite/deps/pinia.js?v=5d034a10:785:44)
+    at http://localhost:5173/src/main.js?t=1778006169683:41:6
+[   85154ms] [WARNING] [firebase] Yapılandırılmamış. .env.local dosyasını doldur ve sayfayı yenile. @ http://localhost:5173/src/services/firebase.js?t=1778006169683:30
+[   90469ms] [WARNING] [firebase] Yapılandırılmamış. .env.local dosyasını doldur ve sayfayı yenile. @ http://localhost:5173/src/services/firebase.js?t=1778006169683:30
+[   96146ms] [WARNING] [firebase] Yapılandırılmamış. .env.local dosyasını doldur ve sayfayı yenile. @ http://localhost:5173/src/services/firebase.js?t=1778006169683:30
